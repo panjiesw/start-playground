@@ -92,32 +92,6 @@
     "typescript": "^3.0.3"
   },
   "start": {
-    "require": [
-      [
-        "@babel/register",
-        {
-          "presets": [
-            [
-              "@babel/preset-env",
-              {
-                "targets": {
-                  "node": "current"
-                },
-                "modules": false
-              }
-            ],
-            "@babel/preset-typescript"
-          ],
-          "plugins": [
-            "@babel/syntax-dynamic-import"
-          ],
-          "extensions": [
-            ".ts",
-            ".js"
-          ]
-        }
-      ]
-    ],
     "reporter": "@start/reporter-verbose"
   }
 }
