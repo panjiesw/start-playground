@@ -46,7 +46,7 @@ Using gnu time `/usr/bin/time`.
 * Using `lerna run`
 
   ```bash
-  time npm run build:npm
+  time --verbose npm run build:npm
     Command being timed: "npm run build:npm"
     User time (seconds): 56.50
     System time (seconds): 2.91
@@ -75,7 +75,7 @@ Using gnu time `/usr/bin/time`.
 * Using `start compileAll`
 
   ```bash
-  time npm run build:start
+  time --verbose npm run build:start
     Command being timed: "npm run build:start"
     User time (seconds): 128.51
     System time (seconds): 4.78
